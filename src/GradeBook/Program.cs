@@ -11,11 +11,18 @@ namespace GradeBook
          
             //var numbers = new [] {41.3, 33.3, 22.1, 11.1 };  // for each statements
 
-            var book = new Book("Troy's Gradebook");  //creting new class
-            book.Addgrade(89.1);
-            book.Addgrade(90.8);        
-            book.Addgrade(75.9);
-            var stats =  book.GetStatistics();
+            var book1 = new Book("Troy's Gradebook");  //creting new class
+            var book2 = new Book("");
+            
+            book2.Addgrade(69.9);
+            book1.Addgrade(89.1);
+            book1.Addgrade(90.8);        
+            book1.Addgrade(75.9);
+         //   book1.ChangeName("Karl Lake tite");
+            book1.ResetName();
+            
+            var stats =  book1.GetStatistics();
+
             Console.WriteLine($"The highest grade is {stats.High}");
             Console.WriteLine($"The lowest grade is {stats.Low}");
             Console.WriteLine($"The average grade is {stats.Average:N1}");  //:N1 is 1 number after the decimal

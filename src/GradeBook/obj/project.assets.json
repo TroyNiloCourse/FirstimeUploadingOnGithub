@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\gradebook\\src\\Gradebook\\Gradebook.csproj",
+      "projectUniqueName": "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\Gradebook.csproj",
       "projectName": "Gradebook",
-      "projectPath": "C:\\Users\\user\\gradebook\\src\\Gradebook\\Gradebook.csproj",
+      "projectPath": "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\Gradebook.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\gradebook\\src\\Gradebook\\obj\\",
+      "outputPath": "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
