@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj": {}
+    "D:\\Code\\Pluralsight\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\user\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectPath": "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\gradebook\\src\\GradeBook\\obj\\",
+        "outputPath": "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\user\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj": {
+    "D:\\Code\\Pluralsight\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj",
+        "projectUniqueName": "D:\\Code\\Pluralsight\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj",
         "projectName": "GradeBook.Test",
-        "projectPath": "C:\\Users\\user\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj",
+        "projectPath": "D:\\Code\\Pluralsight\\gradebook\\src\\test\\GradeBook.Test\\GradeBook.Test.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\gradebook\\src\\test\\GradeBook.Test\\obj\\",
+        "outputPath": "D:\\Code\\Pluralsight\\gradebook\\src\\test\\GradeBook.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\user\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-                "projectPath": "C:\\Users\\user\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+              "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj"
               }
             }
           }

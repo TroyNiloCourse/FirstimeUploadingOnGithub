@@ -9,7 +9,7 @@ namespace GradeBook
         {
             grades = new List<double>();
             Name = name;
-            InitialName = Name;
+            // InitialName = Name;
         }
        
         public void Addgrade(double grade)  //void - not returning a value
@@ -34,16 +34,16 @@ namespace GradeBook
             result.Average /= grades.Count; // or result = result / grades.count  
             return result;
         }
-        public void ChangeName (string name)
-        {
-            Name = name;
-        }
-        public void ResetName()
-        {
+        // public void ChangeName (string name)
+        // {
+        //     Name = name;
+        // }
+        // public void ResetName()
+        // {
 
-            Name = InitialName;
-        }
-        private string InitialName;
+        //     Name = InitialName;
+        // }
+        // private string InitialName;
 
       
         private List<double> grades;

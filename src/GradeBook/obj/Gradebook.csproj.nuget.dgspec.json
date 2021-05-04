@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\Gradebook.csproj": {}
+    "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\Gradebook.csproj": {
+    "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\Gradebook.csproj",
-        "projectName": "Gradebook",
-        "projectPath": "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\Gradebook.csproj",
+        "projectUniqueName": "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectName": "GradeBook",
+        "projectPath": "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Pluralsight\\gradebook\\src\\Gradebook\\obj\\",
+        "outputPath": "D:\\Code\\Pluralsight\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
