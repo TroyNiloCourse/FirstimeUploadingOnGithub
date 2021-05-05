@@ -12,14 +12,32 @@ namespace GradeBook
             //var numbers = new [] {41.3, 33.3, 22.1, 11 .1 };  // for each statements
 
             var book = new Book("Troy's Gradebook");  //creting new class
-           // var book = new Book("");
-            
-            
-            book.Addgrade(89.1);
-            book.Addgrade(90.8);        
-            book.Addgrade(75.9);
-             //   book1.ChangeName("Karl Lake tite");
-            //book1.ResetName();
+
+            while(true)
+            {
+                Console.WriteLine("Enter a grade or press 'q' to quit");
+                var input = Console.ReadLine();
+                    if(input == "q")
+                    {
+                        break;
+                    }
+                try{
+                      var grade = double.Parse(input);
+                      book.Addgrade(grade);
+                    }
+                    catch(ArgumentException ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    catch(FormatException ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    finally
+                    {
+                        Console.WriteLine("**");
+                    }
+            }
             
             var stats =  book.GetStatistics();
 
