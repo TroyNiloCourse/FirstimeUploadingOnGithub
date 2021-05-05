@@ -11,6 +11,24 @@ namespace GradeBook
             Name = name;
             // InitialName = Name;
         }
+        public void AddLetterGrade(char letter)
+        {
+            switch(letter)
+            {
+                case 'A':
+                Addgrade(90);
+                break;
+                case 'B':
+                Addgrade(80);
+                break;
+                case 'C':
+                Addgrade(70);
+                break;
+                default:
+                Addgrade(0);
+                break;
+            }
+        }
        
         public void Addgrade(double grade)  //void - not returning a value
         {
